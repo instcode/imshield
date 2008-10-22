@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IMShield", "IMShield.vcproj", "{111F0411-E49D-43DB-B84B-0BC6DA70A810}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7E9C0523-DC14-49F2-A68F-41EAC9BBECFF} = {7E9C0523-DC14-49F2-A68F-41EAC9BBECFF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IMShieldRemote", "IMShieldRemote.vcproj", "{CB78A886-103E-426E-821B-7BA5F31B8B2F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7E9C0523-DC14-49F2-A68F-41EAC9BBECFF} = {7E9C0523-DC14-49F2-A68F-41EAC9BBECFF}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IMShieldUtil", "YMSGP.vcproj", "{7E9C0523-DC14-49F2-A68F-41EAC9BBECFF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		Release|Default = Release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{111F0411-E49D-43DB-B84B-0BC6DA70A810}.Debug|Default.ActiveCfg = Debug|Win32
+		{111F0411-E49D-43DB-B84B-0BC6DA70A810}.Debug|Default.Build.0 = Debug|Win32
+		{111F0411-E49D-43DB-B84B-0BC6DA70A810}.Release|Default.ActiveCfg = Release|Win32
+		{111F0411-E49D-43DB-B84B-0BC6DA70A810}.Release|Default.Build.0 = Release|Win32
+		{CB78A886-103E-426E-821B-7BA5F31B8B2F}.Debug|Default.ActiveCfg = Debug|Win32
+		{CB78A886-103E-426E-821B-7BA5F31B8B2F}.Debug|Default.Build.0 = Debug|Win32
+		{CB78A886-103E-426E-821B-7BA5F31B8B2F}.Release|Default.ActiveCfg = Release|Win32
+		{CB78A886-103E-426E-821B-7BA5F31B8B2F}.Release|Default.Build.0 = Release|Win32
+		{7E9C0523-DC14-49F2-A68F-41EAC9BBECFF}.Debug|Default.ActiveCfg = Debug|Win32
+		{7E9C0523-DC14-49F2-A68F-41EAC9BBECFF}.Debug|Default.Build.0 = Debug|Win32
+		{7E9C0523-DC14-49F2-A68F-41EAC9BBECFF}.Release|Default.ActiveCfg = Release|Win32
+		{7E9C0523-DC14-49F2-A68F-41EAC9BBECFF}.Release|Default.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
