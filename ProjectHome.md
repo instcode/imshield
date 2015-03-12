@@ -1,0 +1,3 @@
+IMShield is a desktop application which runs background and monitors the connections between IM client and IM Server to provide proactive defending. It protects users and their instant messengers (Yahoo Messenger, GoogleTalk...) from malwares and spim bots. Within a LAN network, the IMShield server is a mediator which applies a list of policies to the incoming/out-going messages before transferring them to proper destination.
+
+The initial version supports only Yahoo Messenger and runs on Windows platform. However, the core-engine (C/C++) is ready to use for other purposes (A Pidgin's plugin, for example).
